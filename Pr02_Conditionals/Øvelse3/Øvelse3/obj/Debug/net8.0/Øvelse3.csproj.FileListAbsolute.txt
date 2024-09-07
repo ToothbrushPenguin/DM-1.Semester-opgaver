@@ -1,0 +1,15 @@
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\bin\Debug\net8.0\Øvelse3.exe
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\bin\Debug\net8.0\Øvelse3.deps.json
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\bin\Debug\net8.0\Øvelse3.runtimeconfig.json
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\bin\Debug\net8.0\Øvelse3.dll
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\bin\Debug\net8.0\Øvelse3.pdb
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\obj\Debug\net8.0\Øvelse3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\obj\Debug\net8.0\Øvelse3.AssemblyInfoInputs.cache
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\obj\Debug\net8.0\Øvelse3.AssemblyInfo.cs
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\obj\Debug\net8.0\Øvelse3.csproj.CoreCompileInputs.cache
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\obj\Debug\net8.0\Øvelse3.sourcelink.json
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\obj\Debug\net8.0\Øvelse3.dll
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\obj\Debug\net8.0\refint\Øvelse3.dll
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\obj\Debug\net8.0\Øvelse3.pdb
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\obj\Debug\net8.0\Øvelse3.genruntimeconfig.cache
+C:\Users\emilk\source\repos\Pr02_Conditionals\Øvelse3\Øvelse3\obj\Debug\net8.0\ref\Øvelse3.dll
