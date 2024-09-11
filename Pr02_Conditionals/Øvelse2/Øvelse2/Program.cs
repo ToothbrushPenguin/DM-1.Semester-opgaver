@@ -11,7 +11,6 @@
             age -= 10;
 
             Console.WriteLine(name + " er " + age + " år gammel");
-
             
         }
     }

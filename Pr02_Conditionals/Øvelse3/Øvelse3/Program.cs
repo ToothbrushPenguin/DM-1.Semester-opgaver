@@ -30,7 +30,7 @@
             {
                 beskrivelse = "i arbejde";
             }
-            else if (age >= 67)
+            else if (age > 67)
             {
                 beskrivelse = "pensionist";
             }
