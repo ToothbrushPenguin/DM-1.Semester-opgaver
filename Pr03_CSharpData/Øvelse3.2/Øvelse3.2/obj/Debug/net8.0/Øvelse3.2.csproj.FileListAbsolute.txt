@@ -1,0 +1,15 @@
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\bin\Debug\net8.0\Øvelse3.2.exe
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\bin\Debug\net8.0\Øvelse3.2.deps.json
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\bin\Debug\net8.0\Øvelse3.2.runtimeconfig.json
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\bin\Debug\net8.0\Øvelse3.2.dll
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\bin\Debug\net8.0\Øvelse3.2.pdb
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\obj\Debug\net8.0\Øvelse3.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\obj\Debug\net8.0\Øvelse3.2.AssemblyInfoInputs.cache
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\obj\Debug\net8.0\Øvelse3.2.AssemblyInfo.cs
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\obj\Debug\net8.0\Øvelse3.2.csproj.CoreCompileInputs.cache
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\obj\Debug\net8.0\Øvelse3.2.sourcelink.json
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\obj\Debug\net8.0\Øvelse3.2.dll
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\obj\Debug\net8.0\refint\Øvelse3.2.dll
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\obj\Debug\net8.0\Øvelse3.2.pdb
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\obj\Debug\net8.0\Øvelse3.2.genruntimeconfig.cache
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr03_CSharpData\Øvelse3.2\Øvelse3.2\obj\Debug\net8.0\ref\Øvelse3.2.dll

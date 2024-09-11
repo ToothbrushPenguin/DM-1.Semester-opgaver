@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\emilk\\source\\repos\\Pr02_Conditionals\\\u00D8velse4\\",
+  "WorkspaceRootPath": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr02_Conditionals\\\u00D8velse4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A405AD9-177A-45EE-A421-B56CEBEFA57A}|\u00D8velse4\\\u00D8velse4.csproj|c:\\users\\emilk\\source\\repos\\pr02_conditionals\\\u00F8velse4\\\u00F8velse4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A405AD9-177A-45EE-A421-B56CEBEFA57A}|\u00D8velse4\\\u00D8velse4.csproj|c:\\users\\emilk\\source\\repos\\dm-1.semester-opgaver\\pr02_conditionals\\\u00F8velse4\\\u00F8velse4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A405AD9-177A-45EE-A421-B56CEBEFA57A}|\u00D8velse4\\\u00D8velse4.csproj|solutionrelative:\u00F8velse4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\emilk\\source\\repos\\Pr02_Conditionals\\\u00D8velse4\\\u00D8velse4\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr02_Conditionals\\\u00D8velse4\\\u00D8velse4\\Program.cs",
               "RelativeDocumentMoniker": "\u00D8velse4\\Program.cs",
-              "ToolTip": "C:\\Users\\emilk\\source\\repos\\Pr02_Conditionals\\\u00D8velse4\\\u00D8velse4\\Program.cs",
+              "ToolTip": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr02_Conditionals\\\u00D8velse4\\\u00D8velse4\\Program.cs",
               "RelativeToolTip": "\u00D8velse4\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvzEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T08:07:01.187Z",
               "EditorCaption": ""
