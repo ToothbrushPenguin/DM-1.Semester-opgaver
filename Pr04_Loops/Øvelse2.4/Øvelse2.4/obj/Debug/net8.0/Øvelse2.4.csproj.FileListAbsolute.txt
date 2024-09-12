@@ -1,0 +1,15 @@
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\bin\Debug\net8.0\Øvelse2.4.exe
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\bin\Debug\net8.0\Øvelse2.4.deps.json
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\bin\Debug\net8.0\Øvelse2.4.runtimeconfig.json
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\bin\Debug\net8.0\Øvelse2.4.dll
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\bin\Debug\net8.0\Øvelse2.4.pdb
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\obj\Debug\net8.0\Øvelse2.4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\obj\Debug\net8.0\Øvelse2.4.AssemblyInfoInputs.cache
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\obj\Debug\net8.0\Øvelse2.4.AssemblyInfo.cs
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\obj\Debug\net8.0\Øvelse2.4.csproj.CoreCompileInputs.cache
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\obj\Debug\net8.0\Øvelse2.4.sourcelink.json
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\obj\Debug\net8.0\Øvelse2.4.dll
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\obj\Debug\net8.0\refint\Øvelse2.4.dll
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\obj\Debug\net8.0\Øvelse2.4.pdb
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\obj\Debug\net8.0\Øvelse2.4.genruntimeconfig.cache
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr04_Loops\Øvelse2.4\Øvelse2.4\obj\Debug\net8.0\ref\Øvelse2.4.dll
