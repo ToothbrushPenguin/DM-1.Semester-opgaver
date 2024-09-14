@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr04_Loops\\Øvelse2.8\\Øvelse2.8\\Øvelse2.8.csproj",
-      "projectName": "Øvelse2.8",
-      "projectPath": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr04_Loops\\Øvelse2.8\\Øvelse2.8\\Øvelse2.8.csproj",
+      "projectUniqueName": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr05_Methods\\Øvelse3.2\\Øvelse3.2\\Øvelse3.2.csproj",
+      "projectName": "Øvelse3.2",
+      "projectPath": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr05_Methods\\Øvelse3.2\\Øvelse3.2\\Øvelse3.2.csproj",
       "packagesPath": "C:\\Users\\emilk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr04_Loops\\Øvelse2.8\\Øvelse2.8\\obj\\",
+      "outputPath": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr05_Methods\\Øvelse3.2\\Øvelse3.2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emilk\\AppData\\Roaming\\NuGet\\NuGet.Config",
