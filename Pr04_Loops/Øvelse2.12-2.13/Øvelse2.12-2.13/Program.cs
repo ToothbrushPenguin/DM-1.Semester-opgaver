@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter an arithmetic expression (e.g., 15+15-5):");
+            Console.WriteLine("Enter an arithmetic expression (e.g., 15+15-5*5/5):");
             string input = Console.ReadLine();
 
             int result = 0;
@@ -48,6 +48,8 @@
                 {
                     case '+':
                     case '-':
+                    case '/':
+                    case '*':
                         type = "(operator)";
                         break;
                     default:
@@ -66,6 +68,10 @@
                     return result + currentNumber;
                 case '-':
                     return result - currentNumber;
+                case '/':
+                    return result / currentNumber;
+                case '*':
+                    return result * currentNumber;
                 default:
                     return currentNumber;
             }

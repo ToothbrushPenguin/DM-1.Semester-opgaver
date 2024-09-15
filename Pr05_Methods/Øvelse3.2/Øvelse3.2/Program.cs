@@ -1,62 +1,88 @@
-﻿namespace Øvelse3._2
+﻿using System.Runtime.CompilerServices;
+
+namespace Øvelse3._2
 {
-    
+
     internal class Program
     {
         static void Main(string[] args)
         {
             Calculator calc = new Calculator();
 
-            string input;
             do
             {
+                bool valid = true;
                 Console.WriteLine("Select a Methot:");
-                Console.WriteLine("- 'Add'");
-                Console.WriteLine("- 'Sub'");
-                Console.WriteLine("- 'Dev'");
-                Console.WriteLine("- 'Mul'");
+                Console.WriteLine("- '+'");
+                Console.WriteLine("- '-'");
+                Console.WriteLine("- '*'");
+                Console.WriteLine("- '/'");
 
-                input = Console.ReadLine();
-                if (input == "done")
+                string op = Console.ReadLine();
+                if (op.ToLower() == "done")
                 {
                     break;
+                }else if(!(calc.isOberator(op)))
+                {
+                    Console.WriteLine("not an operator");
+                    valid = false;
                 }
-                string op = input;
+
 
                 Console.WriteLine("write your 1. number");
-                input = Console.ReadLine();
-                if (input == "done")
+                string nr1In = Console.ReadLine();
+                int nr1Out;
+                if (nr1In.ToLower() == "done")
                 {
                     break;
                 }
-                string nr1 = input;
+                else if (!(int.TryParse(nr1In, out nr1Out)))
+                {
+                    Console.WriteLine("not a number");
+                    valid = false;
+                }
+
 
                 Console.WriteLine("write your 2. number");
-                input = Console.ReadLine();
-                if (input == "done")
+                string nr2In = Console.ReadLine();
+                int nr2Out;
+                if (nr2In.ToLower() == "done")
                 {
                     break;
-                }
-                string nr2 = input;
-
-                switch (op)
+                } 
+                else if (!(int.TryParse(nr2In, out nr2Out)))
                 {
-                    case "Add":
-                        Console.WriteLine(calc.Add(int.Parse(nr1), int.Parse(nr2)));
-                        break;
-                    case "Sub":
-                        break;
-                    case "Dev":
-                        break;
-                    case "Mul":
-                        break;
-                    default:
-                        break;
+                    Console.WriteLine("not a number");
+                    valid = false;
                 }
+
+                if (valid)
+                {
+                    switch (op)
+                    {
+                        case "+":
+                            Console.WriteLine(calc.Add(nr1Out, nr2Out));
+                            break;
+
+                        case "-":
+                            Console.WriteLine(calc.Sub(nr1Out, nr2Out));
+                            break;
+
+                        case "/":
+                            Console.WriteLine(calc.Div(nr1Out, nr2Out));
+                            break;
+
+                        case "*":
+                            Console.WriteLine(calc.Mul(nr1Out, nr2Out));
+                            break;
+
+                        default:
+                            break;
+                    }
+
+                }
+                
             } while (true);
-            
-
-
 
         }
     }

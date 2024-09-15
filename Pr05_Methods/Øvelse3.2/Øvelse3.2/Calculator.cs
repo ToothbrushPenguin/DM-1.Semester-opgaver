@@ -28,6 +28,13 @@ namespace Øvelse3._2
             return x * y;
         }
 
+        public bool isOberator(string input)
+        {
+            return input is "+" or "-" or "*" or "/";
+        }
+
+        
+
     }
 
 }
