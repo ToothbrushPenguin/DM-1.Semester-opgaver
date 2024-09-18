@@ -75,9 +75,6 @@ namespace Øvelse3._2
                         case "*":
                             Console.WriteLine(calc.Mul(nr1Out, nr2Out));
                             break;
-
-                        default:
-                            break;
                     }
 
                 }

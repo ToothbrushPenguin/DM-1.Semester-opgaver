@@ -1,0 +1,15 @@
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\bin\Debug\net8.0\Øvelse4.2A.exe
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\bin\Debug\net8.0\Øvelse4.2A.deps.json
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\bin\Debug\net8.0\Øvelse4.2A.runtimeconfig.json
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\bin\Debug\net8.0\Øvelse4.2A.dll
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\bin\Debug\net8.0\Øvelse4.2A.pdb
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\obj\Debug\net8.0\Øvelse4.2A.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\obj\Debug\net8.0\Øvelse4.2A.AssemblyInfoInputs.cache
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\obj\Debug\net8.0\Øvelse4.2A.AssemblyInfo.cs
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\obj\Debug\net8.0\Øvelse4.2A.csproj.CoreCompileInputs.cache
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\obj\Debug\net8.0\Øvelse4.2A.sourcelink.json
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\obj\Debug\net8.0\Øvelse4.2A.dll
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\obj\Debug\net8.0\refint\Øvelse4.2A.dll
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\obj\Debug\net8.0\Øvelse4.2A.pdb
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\obj\Debug\net8.0\Øvelse4.2A.genruntimeconfig.cache
+C:\Users\emilk\source\repos\DM-1.Semester-opgaver\Pr06_UnitTestAndArray\Øvelse4.2A\Øvelse4.2A\obj\Debug\net8.0\ref\Øvelse4.2A.dll
