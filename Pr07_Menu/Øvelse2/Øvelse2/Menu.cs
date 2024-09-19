@@ -27,6 +27,38 @@ namespace Øvelse2
             itemCount++;
         }
 
+
+        public int SelectMenuItem()
+        {
+            while (true)
+            {
+                try
+                {
+                    
+                    int input = int.Parse(Console.ReadLine());
+                    if (input > itemCount || input < 0)
+                    {
+                        Console.WriteLine("please write a valid menu selection");
+                    }
+                    else
+                    {
+                        return input;
+                    }
+                    
+
+
+                }
+                catch(FormatException)
+                {
+                    Console.WriteLine("please write a valid menu selection");
+                }
+            }
+            
+            
+
+           
+        }
+
         public void Show()
         {
             Console.WriteLine(title);
@@ -34,7 +66,7 @@ namespace Øvelse2
             {
                     Console.WriteLine(menuItems[i].title);
             }
-            Console.WriteLine("(Tryk 'mellrum' eller '0' for at afslutte)");
+            Console.WriteLine("(Tryk '0' for at afslutte)");
         }
 
 
