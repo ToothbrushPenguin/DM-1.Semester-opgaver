@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OrangeTreeSim
 {
-    class OrangeTree
+    public class OrangeTree
     {
         private int age;
         private int height;
@@ -25,11 +25,37 @@ namespace OrangeTreeSim
 
         public void OneYearPasses()
         {
-
+            
+            if (treeAlive)
+            {
+                numOranges = age * 5;
+            }
+            else
+            {
+                numOranges = 0;
+            }
+                
+            age++;
+            orangesEaten = 0;
+            if (age >= 80)
+            {
+                treeAlive = false;
+            }
+            else
+            {
+                height += 2;
+                treeAlive = true;
+            }
+            
         }
 
         public void EatOrange(int count)
         {
+            if (count <= numOranges)
+            {
+                orangesEaten = orangesEaten + count;
+                numOranges -= count;
+            }
 
         }
     }
