@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr07_Menu\\Øvelse2\\Øvelse2\\Øvelse2.csproj",
-      "projectName": "Øvelse2",
-      "projectPath": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr07_Menu\\Øvelse2\\Øvelse2\\Øvelse2.csproj",
+      "projectUniqueName": "C:\\Users\\emilk\\source\\repos\\OrangeTreeSim\\OrangeTreeSim\\OrangeTreeSim.csproj",
+      "projectName": "OrangeTreeSim",
+      "projectPath": "C:\\Users\\emilk\\source\\repos\\OrangeTreeSim\\OrangeTreeSim\\OrangeTreeSim.csproj",
       "packagesPath": "C:\\Users\\emilk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr07_Menu\\Øvelse2\\Øvelse2\\obj\\",
+      "outputPath": "C:\\Users\\emilk\\source\\repos\\OrangeTreeSim\\OrangeTreeSim\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emilk\\AppData\\Roaming\\NuGet\\NuGet.Config",
