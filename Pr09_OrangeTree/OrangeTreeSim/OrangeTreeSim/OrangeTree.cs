@@ -8,36 +8,47 @@ namespace OrangeTreeSim
 {
     public class OrangeTree
     {
-        private int age;
+        public int Age;
         private int height;
+        public int Height
+        {
+            set { height = value; }
+            get { return height; }
+        }
         private bool treeAlive;
+        public bool TreeAlive
+        {
+            set { treeAlive = value; }
+            get { return treeAlive; }
+        }
         private int numOranges;
-        private int orangesEaten;
+        public int NumOranges
+        {
 
-        public void SetAge(int age) { this.age = age; }
-        public int GetAge() { return age; }
-        public void SetHeight(int height) { this.height = height; }
-        public int GetHeight() { return height; }
-        public void SetTreeAlive(bool treeAlive){ this.treeAlive = treeAlive; }
-        public bool GetTreeAlive() { return treeAlive; }
-        public int GetNumOranges(){ return numOranges; }
-        public int GetOrangesEaten(){ return orangesEaten; }
+            get { return numOranges; }
+        }
+        private int orangesEaten;
+        public int OrangesEaten
+        {
+
+            get { return orangesEaten; }
+        }
 
         public void OneYearPasses()
         {
             
             if (treeAlive)
             {
-                numOranges = age * 5;
+                numOranges = Age * 5;
             }
             else
             {
                 numOranges = 0;
             }
                 
-            age++;
+            Age++;
             orangesEaten = 0;
-            if (age >= 80)
+            if (Age >= 80)
             {
                 treeAlive = false;
             }
