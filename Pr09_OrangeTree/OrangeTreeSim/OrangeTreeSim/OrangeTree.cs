@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace OrangeTreeSim
 {
+   
     public class OrangeTree
     {
-        public int Age;
+        private int age;
+        public int Age
+        {
+            set { age = value; }
+            get { return age; }
+        }
         private int height;
         public int Height
         {
@@ -36,7 +42,7 @@ namespace OrangeTreeSim
 
         public void OneYearPasses()
         {
-            
+
             if (treeAlive)
             {
                 numOranges = Age * 5;

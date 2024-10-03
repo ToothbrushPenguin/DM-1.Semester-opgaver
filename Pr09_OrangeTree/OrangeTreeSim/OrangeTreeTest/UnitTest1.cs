@@ -11,6 +11,7 @@ namespace OrangeTreeTest
         public void SetupForTest()
         {
             // Start an orange tree
+            List<OrangeTree> test = new List<OrangeTree> ();    
             orangeTree = new OrangeTree();
             orangeTree.Age = 0;
             orangeTree.Height = 6;
