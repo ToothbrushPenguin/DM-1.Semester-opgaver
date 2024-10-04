@@ -52,5 +52,66 @@ namespace Pr12_Persistence
                 return null;
             }
         }
+
+        public void SavePersons(Person[] persons)
+        {
+            try
+            {
+                StreamWriter stream = new StreamWriter(DataFileName);
+                foreach (Person person in persons)
+                {
+                    stream.WriteLine(person.MakeTitle());
+                }
+                stream.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception: " + e.Message);
+            }
+
+        }
+
+        public Person[] LoadPersons()
+        {
+
+            try
+            {
+                string line;
+                string fullLine = "";
+                
+
+                StreamReader stream = new StreamReader(DataFileName);
+                line = stream.ReadLine();
+                
+                while (line != null)
+                {
+                    fullLine += line;
+                    fullLine += "\r";
+                    line = stream.ReadLine();
+                }
+
+                stream.Close();
+
+                string[] fullList = fullLine.Split(new string[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
+                Person[] persons = new Person[fullList.Length-1];
+
+                for (int i = 0; fullList.Length-1 > i; i++)
+                {
+                    string[] list = fullList[i].Split(";");
+                    Person p = new Person(list[0], DateTime.Parse(list[1]), double.Parse(list[2]), bool.Parse(list[3]), int.Parse(list[4]));
+                    persons[i] = p;
+                }
+                
+                return persons;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception: " + e.Message);
+                return null;
+            }
+
+
+            
+        }
     }
 }
