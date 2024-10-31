@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr12_Persistence\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D38819A4-5545-4EE9-BED7-8A606FA5E94A}|Pr12_Persistence\\Pr12_Persistence.csproj|c:\\users\\emilk\\source\\repos\\dm-1.semester-opgaver\\pr12_persistence\\pr12_persistence\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D38819A4-5545-4EE9-BED7-8A606FA5E94A}|Pr12_Persistence\\Pr12_Persistence.csproj|solutionrelative:pr12_persistence\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D38819A4-5545-4EE9-BED7-8A606FA5E94A}|Pr12_Persistence\\Pr12_Persistence.csproj|c:\\users\\emilk\\source\\repos\\dm-1.semester-opgaver\\pr12_persistence\\pr12_persistence\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D38819A4-5545-4EE9-BED7-8A606FA5E94A}|Pr12_Persistence\\Pr12_Persistence.csproj|solutionrelative:pr12_persistence\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D38819A4-5545-4EE9-BED7-8A606FA5E94A}|Pr12_Persistence\\Pr12_Persistence.csproj|c:\\users\\emilk\\source\\repos\\dm-1.semester-opgaver\\pr12_persistence\\pr12_persistence\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D38819A4-5545-4EE9-BED7-8A606FA5E94A}|Pr12_Persistence\\Pr12_Persistence.csproj|solutionrelative:pr12_persistence\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FE6D935-68E3-403F-B2B7-A6DE130203FB}|TestProject1\\TestProject1.csproj|c:\\users\\emilk\\source\\repos\\dm-1.semester-opgaver\\pr12_persistence\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +29,6 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UnitTest1.cs",
@@ -46,26 +42,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DataHandler.cs",
               "DocumentMoniker": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr12_Persistence\\Pr12_Persistence\\DataHandler.cs",
               "RelativeDocumentMoniker": "Pr12_Persistence\\DataHandler.cs",
               "ToolTip": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr12_Persistence\\Pr12_Persistence\\DataHandler.cs",
               "RelativeToolTip": "Pr12_Persistence\\DataHandler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwF4AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwF4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T08:19:53.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr12_Persistence\\Pr12_Persistence\\Person.cs",
               "RelativeDocumentMoniker": "Pr12_Persistence\\Person.cs",
               "ToolTip": "C:\\Users\\emilk\\source\\repos\\DM-1.Semester-opgaver\\Pr12_Persistence\\Pr12_Persistence\\Person.cs",
               "RelativeToolTip": "Pr12_Persistence\\Person.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAwwCIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswCIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T06:20:54.63Z",
               "EditorCaption": ""
