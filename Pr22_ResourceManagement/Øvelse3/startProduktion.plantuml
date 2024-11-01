@@ -1,0 +1,45 @@
+@startuml test
+skinparam style strictuml
+skinparam sequenceMessageAlign center
+title ._.startProduktion._.
+
+actor Actor as user
+
+participant ":Controller" as CO
+
+participant ":ProductionRepository" as PR
+
+
+participant ":ProductionTrayRepository" as PTR
+
+participant ":FlowerSortRepository" as FSR
+
+
+user -> CO ++: StartProduktion(drivhus:string,\n produktionsbakke:string, blomstersort:string,\n startAntal:integer, startDato:DateTime)
+
+    CO -> PR ++: Add(drivhus:string,\n produktionsbakke:string, blomstersort:string,\n startAntal:integer, startDato:DateTime)
+    
+    PR -> PTR ++: produktionsbakke:ProductionTray = GetTray(name:String)
+    return
+
+    PR -> FSR ++: blomstersort:FlowerSort = GetSort(blomstersort:String)
+    return
+    
+
+    create ":Production" as P
+    PR -> P ++: <<create>>(drivhus:string,\n produktionsbakke:ProductionTray, blomstersort:FlowerSort,\n startAntal:integer, startDato:DateTime)
+    return
+
+
+    
+
+    return
+
+
+return
+
+
+
+
+
+
