@@ -1,0 +1,14 @@
+@startuml test
+skinparam style strictuml
+skinparam sequenceMessageAlign center
+title ._.startProduktion._.
+
+actor Actor as user
+
+
+
+
+
+
+
+
