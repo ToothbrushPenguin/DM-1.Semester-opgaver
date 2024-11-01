@@ -16,6 +16,12 @@ namespace Øvelse3
             productionTraysList = new List<ProductionTray>();
         }
 
+        public void CreateTray(string name, double size)
+        {
+            ProductionTray pt = new ProductionTray(name, size);
+            productionTraysList.Add(pt);
+        }
+
         public ProductionTray GetTray(string name)
         {
             ProductionTray? output = null;

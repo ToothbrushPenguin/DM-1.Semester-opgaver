@@ -10,8 +10,8 @@ namespace Øvelse3
     {
         private List<Production> productionsList;
 
-        private FlowerSortRepository flowerSortRepository;
-        private ProductionTrayRepository productionTrayRepository;
+        public FlowerSortRepository flowerSortRepository;
+        public ProductionTrayRepository productionTrayRepository;
 
         public ProductionRepository() 
         { 

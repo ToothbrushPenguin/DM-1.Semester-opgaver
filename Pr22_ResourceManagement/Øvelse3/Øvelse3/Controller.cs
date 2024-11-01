@@ -8,5 +8,11 @@ namespace Øvelse3
 {
     internal class Controller
     {
+        public ProductionRepository productionRepository;
+
+        public Controller()
+        {
+            productionRepository = new ProductionRepository();
+        }
     }
 }
