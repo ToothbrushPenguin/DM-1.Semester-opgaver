@@ -64,8 +64,10 @@ namespace WPFInteractiveGUI
         }
         private void age_TextChanged(object sender, TextChangedEventArgs e)
         {
-            int.TryParse(age.Text, out int agei);
-            controller.CurrentPerson.Age = agei;
+            if(int.TryParse(age.Text, out int agei))
+            {
+                controller.CurrentPerson.Age = agei;
+            }
             UpdateUi();
         }
 
