@@ -40,6 +40,7 @@ namespace WPFInteractiveGUI
         private void deleteP_Click(object sender, RoutedEventArgs e)
         {
             controller.DeletePerson();
+            UpdateUi();
         }
         private void up_Click(object sender, RoutedEventArgs e)
         {
