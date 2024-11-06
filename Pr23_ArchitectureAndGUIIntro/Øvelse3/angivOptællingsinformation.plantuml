@@ -1,7 +1,7 @@
 @startuml test
 skinparam style strictuml
 skinparam sequenceMessageAlign center
-title ._.startProduktion._.
+title Gennemse Produktion
 
 actor Actor as user
 

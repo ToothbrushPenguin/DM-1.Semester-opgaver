@@ -1,7 +1,7 @@
 @startuml test
 skinparam style strictuml
 skinparam sequenceMessageAlign center
-title gennemsetAfMedarbejder
+title Gennemse Produktion
 
 actor Actor as user
 
@@ -11,7 +11,7 @@ participant ":Controller" as CO
 participant ":EmployeeRepository" as ER
 
 user -> CO ++: GennemsetAfMedarbejder(initialer:string)
-    CO -> ER ++: DoesExsist(initialer:string)
+    CO -> ER ++: DoesExist(initialer:string)
 
     return
 return
