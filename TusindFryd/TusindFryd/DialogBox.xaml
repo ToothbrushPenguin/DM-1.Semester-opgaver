@@ -24,11 +24,11 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <TextBox x:Name="Name" HorizontalAlignment="Left" Margin="101,25,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="BilledeSti" HorizontalAlignment="Left" Margin="101,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" MaxHeight="15" Width="120" LostKeyboardFocus="TypedImage"/>
-        <TextBox x:Name="Produktionstid" HorizontalAlignment="Left" Margin="124,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="Halveringstid" HorizontalAlignment="Left" Margin="124,265,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="Størrelse" HorizontalAlignment="Left" Margin="91,307,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Margin="124,25,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="242"/>
+        <TextBox x:Name="BilledeSti" HorizontalAlignment="Left" Margin="124,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" MaxHeight="15" Width="242" LostKeyboardFocus="TypedImage"/>
+        <TextBox x:Name="Produktionstid" HorizontalAlignment="Left" Margin="124,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="242"/>
+        <TextBox x:Name="Halveringstid" HorizontalAlignment="Left" Margin="124,265,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="242"/>
+        <TextBox x:Name="Størrelse" HorizontalAlignment="Left" Margin="124,307,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="242"/>
 
     </Grid>
 </Window>
