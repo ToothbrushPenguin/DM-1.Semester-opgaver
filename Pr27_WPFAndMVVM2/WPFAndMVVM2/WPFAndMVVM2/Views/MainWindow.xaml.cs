@@ -35,5 +35,10 @@ namespace WPFAndMVVM2
             mvm.AddDefaultPerson();
             Lb.ScrollIntoView(mvm.SelectedPersonVM);
         }
+
+        private void btnDeletePerson_Click(object sender, RoutedEventArgs e)
+        {
+            mvm.DeleteSelectedPerson();
+        }
     }
 }

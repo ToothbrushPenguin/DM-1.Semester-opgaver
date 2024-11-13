@@ -27,10 +27,10 @@
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-            <StackPanel Orientation="Horizontal" Grid.Row="1">
-                <Button x:Name="btnNewPerson" Content="New" Click="btnNewPerson_Click" Width="110"/>
-                <Button x:Name="btnDeletePerson" Content="Delete" Width="119"/>
-             </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center" Grid.Column="2">
+                <Button x:Name="btnNewPerson" Content="New" Click="btnNewPerson_Click" Grid.Column="0" Width="120" />
+                <Button x:Name="btnDeletePerson" Content="Delete" Click="btnDeletePerson_Click" Grid.Column="1" Width="120" />
+            </StackPanel>
         </Grid>
 
         <GridSplitter Width="5" Grid.Column="1" HorizontalAlignment="Stretch"/>

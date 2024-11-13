@@ -10,6 +10,7 @@ namespace WPFAndMVVM2.ViewModels
     public class PersonViewModel
     {
         private Person person;
+        public int Id { get; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
@@ -18,10 +19,11 @@ namespace WPFAndMVVM2.ViewModels
         public PersonViewModel(Person person) 
         {
             this.person = person;
-            this.FirstName = person.FirstName;
-            this.LastName = person.LastName;
-            this.Age = person.Age;
-            this.Phone = person.Phone;
+            Id = person.Id;
+            FirstName = person.FirstName;
+            LastName = person.LastName;
+            Age = person.Age;
+            Phone = person.Phone;
         }
     }
 }
