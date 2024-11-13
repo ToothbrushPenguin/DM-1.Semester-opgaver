@@ -17,28 +17,33 @@
                 <RowDefinition Height="10*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <ListBox Grid.Row="0">
+            <ListBox Name="Lb" ItemsSource ="{Binding PersonsVM}" SelectedItem="{Binding SelectedPersonVM}" Grid.Row="0">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
-                            <Label Content="FullName"/>
+                            <Label Content="{Binding FirstName}"/>
+                            <Label Content="{Binding LastName}"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-            <StackPanel Orientation="Horizontal" Grid.Row="1"/>
+            <StackPanel Orientation="Horizontal" Grid.Row="1">
+                <Button x:Name="btnNewPerson" Content="New" Click="btnNewPerson_Click" Width="110"/>
+                <Button x:Name="btnDeletePerson" Content="Delete" Width="119"/>
+             </StackPanel>
         </Grid>
 
         <GridSplitter Width="5" Grid.Column="1" HorizontalAlignment="Stretch"/>
         <Grid Grid.Column="2">
-            <TextBox Text="First name" Height="20" VerticalAlignment="Top" Margin="170,62,171,0"/>
-            <TextBox Text="Last name" Height="20" Margin="170,109,171,0" VerticalAlignment="Top" />
-            <TextBox Text="Age" Height="20" Margin="170,158,171,0" VerticalAlignment="Top"/>
-            <TextBox Text="Phone" Height="20" Margin="170,204,171,0" VerticalAlignment="Top"/>
+            <TextBox Text="{Binding SelectedPersonVM.FirstName, UpdateSourceTrigger=PropertyChanged}"  Height="20" VerticalAlignment="Top" Margin="170,62,171,0"/>
+            <TextBox Text="{Binding SelectedPersonVM.LastName, UpdateSourceTrigger=PropertyChanged}" Height="20" Margin="170,109,171,0" VerticalAlignment="Top" />
+            <TextBox Text="{Binding SelectedPersonVM.Age, UpdateSourceTrigger=PropertyChanged}" Height="20" Margin="170,158,171,0" VerticalAlignment="Top"/>
+            <TextBox Text="{Binding SelectedPersonVM.Phone, UpdateSourceTrigger=PropertyChanged}" Height="20" Margin="170,204,171,0" VerticalAlignment="Top"/>
             <Label Content="FirstName:" HorizontalAlignment="Left" Margin="67,59,0,0" VerticalAlignment="Top"/>
             <Label Content="LastName:" HorizontalAlignment="Left" Margin="67,103,0,0" VerticalAlignment="Top" Width="66"/>
             <Label Content="Age:" HorizontalAlignment="Left" Margin="67,152,0,0" VerticalAlignment="Top"/>
             <Label Content="Phone:" HorizontalAlignment="Left" Margin="67,204,0,0" VerticalAlignment="Top"/>
+            
         </Grid>
     </Grid>
 </Window>

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPFAndMVVM2.ViewModels;
 
 namespace WPFAndMVVM2
 {
@@ -20,9 +21,19 @@ namespace WPFAndMVVM2
     /// </summary>
     public partial class MainWindow : Window
     {
+        MainViewModel mvm = new MainViewModel();
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = mvm;
+
+            
+        }
+
+        private void btnNewPerson_Click(object sender, RoutedEventArgs e)
+        {
+            mvm.AddDefaultPerson();
+            Lb.ScrollIntoView(mvm.SelectedPersonVM);
         }
     }
 }
