@@ -1,0 +1,68 @@
+﻿<Window x:Class="Øvelse2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Øvelse2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>     <!-- 1st Separator -->
+            <RowDefinition Height="Auto"/>  <!-- Name Row -->
+            <RowDefinition Height="*"/>     <!-- 2nd separator -->
+            <RowDefinition Height="Auto"/>  <!-- Btn + Image Row -->
+            <RowDefinition Height="*"/>     <!-- 3rd separator -->
+            <RowDefinition Height="Auto"/>  <!-- Spells Row -->
+            <RowDefinition Height="*"/>     <!-- 4th Separator -->
+            <RowDefinition Height="Auto"/>  <!-- Slider -->
+            <RowDefinition Height="*"/>     <!-- 5th Separator -->
+        </Grid.RowDefinitions>
+
+        <Label x:Name="CName" Content="Champ navn" HorizontalAlignment="Center" Grid.Row="1" FontSize="36"/>
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/> <!-- PrevBtn -->
+                <ColumnDefinition Width="*"/>    <!-- First Separator -->
+                <ColumnDefinition Width="Auto"/> <!-- PrevChamp -->
+                <ColumnDefinition Width="*"/>    <!-- Second Separator -->
+                <ColumnDefinition Width="Auto"/> <!-- SelectedChamp -->
+                <ColumnDefinition Width="*"/>    <!-- Third Separator -->
+                <ColumnDefinition Width="Auto"/> <!-- NextChamp -->
+                <ColumnDefinition Width="*"/>    <!-- fourth Separator -->
+                <ColumnDefinition Width="Auto"/> <!-- NextBtn -->
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="PrevBtn" Content="&lt;---" Grid.Column="0"/>
+            <Image x:Name="PrevChamp" Width="80" Grid.Column="2"/>
+            <Image x:Name="SelectedChamp" Height="120" Width="120" Grid.Column="4"/>
+            <Image x:Name="NextChamp" Width="80" Grid.Column="6"/>
+            <Button x:Name="NextBtn" Content="---&gt;" Grid.Column="8"/>
+        </Grid>
+        
+        <Grid Grid.Row="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>   <!-- First Separator -->
+                <ColumnDefinition Width="Auto"/> <!-- QBtn -->
+                <ColumnDefinition Width="*"/>    <!-- Second Separator -->
+                <ColumnDefinition Width="Auto"/> <!-- WBtn -->
+                <ColumnDefinition Width="*"/>    <!-- Thrid Separator -->
+                <ColumnDefinition Width="Auto"/> <!-- EBtn -->
+                <ColumnDefinition Width="*"/>    <!-- Forth Separator -->
+                <ColumnDefinition Width="Auto"/> <!-- RBtn -->
+                <ColumnDefinition Width="3*"/>   <!-- Fith Separator -->
+
+            </Grid.ColumnDefinitions>
+
+            <Label x:Name="QBtn" Content="Q" Grid.Column="1" FontSize="24"/> 
+            <Label x:Name="WBtn" Content="W" Grid.Column="3" FontSize="24"/>
+            <Label x:Name="EBtn" Content="E" Grid.Column="5" FontSize="24"/>
+            <Label x:Name="RBtn" Content="R" Grid.Column="7" FontSize="24"/>
+        </Grid>
+
+        <Slider x:Name="Slider" HorizontalAlignment="Center" Width="250" Grid.Row="7" />
+        
+
+    </Grid>
+</Window>
