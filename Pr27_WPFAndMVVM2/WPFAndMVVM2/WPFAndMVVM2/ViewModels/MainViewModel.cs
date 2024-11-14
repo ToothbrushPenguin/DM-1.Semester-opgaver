@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Text;
+using System.Windows;
 using System.Windows.Controls;
 using WPFAndMVVM2.Models;
 
@@ -48,9 +49,13 @@ namespace WPFAndMVVM2.ViewModels
 
         public void DeleteSelectedPerson()
         {
-            personRepo.Remove(SelectedPersonVM.Id);
-            PersonsVM.Remove(SelectedPersonVM);
-            
+            if (SelectedPersonVM != null)
+            {
+                SelectedPersonVM.Delete(personRepo);
+                PersonsVM.Remove(SelectedPersonVM);
+            }
+
+
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
